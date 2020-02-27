@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Eje\Proyecto1\src\main\scala\Prueba.scala:8:22: variable _saldo in class TarjetaCredito cannot be accessed in Tarjetas.TarjetaCredito[0m
+[0m[[0m[31merror[0m] [0m[0m    println(tarjeta1._saldo)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
