@@ -1,3 +1,8 @@
 run
 compile
 run
+compile
+clear
+cls
+compile
+run

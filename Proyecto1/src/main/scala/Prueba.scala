@@ -1,9 +1,9 @@
-import Tarjetas._
+import Computador._
 
 object Prueba extends App
 {
-    var tarjeta1 = new TarjetaCredito()
+    var computador1 = new Computador()
 
-    println(tarjeta1.clave)
+    println(computador1.estado)
     
 }

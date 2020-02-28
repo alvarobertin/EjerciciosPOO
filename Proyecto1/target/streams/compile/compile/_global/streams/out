@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Eje\Proyecto1\src\main\scala\Prueba.scala:8:22: variable _saldo in class TarjetaCredito cannot be accessed in Tarjetas.TarjetaCredito[0m
-[0m[[0m[31merror[0m] [0m[0m    println(tarjeta1._saldo)[0m
-[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\EjerciciosPOO\Proyecto1\src\main\scala\Tarjetas\Computador.scala:30:27: not found: value _clave[0m
+[0m[[0m[31merror[0m] [0m[0m        if (nuevaClave == _clave){[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
