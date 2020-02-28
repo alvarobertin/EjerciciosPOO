@@ -6,3 +6,5 @@ clear
 cls
 compile
 run
+compile
+run
