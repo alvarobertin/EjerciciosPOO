@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\EjerciciosPOO\Proyecto1\src\main\scala\Tarjetas\Computador.scala:15:25: not found: value _UsomemoriaRAM[0m
+[0m[[0m[31merror[0m] [0m[0m    def UsomemoriaRAM = _UsomemoriaRAM[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\EjerciciosPOO\Proyecto1\src\main\scala\Tarjetas\Computador.scala:24:46: not found: value _UsomemoriaRAM[0m
+[0m[[0m[31merror[0m] [0m[0m    def UsomemoriaRAM_ (entrada : Double) =  _UsomemoriaRAM = entrada[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
