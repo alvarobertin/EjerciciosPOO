@@ -216,7 +216,6 @@ class Edificio extends OperacionUser with OperacionAdmin{
 
             }
 
-
         }
 
     }
