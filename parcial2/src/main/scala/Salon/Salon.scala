@@ -5,7 +5,7 @@ import scala.util.Random
 
 class Salon{
 
-    /* Constructor */
+    /* Constructor solo con temperatura porque el resto no importa*/
 
     def this(temp : Int) = {
 		this();
@@ -60,12 +60,11 @@ class Salon{
     }
 
     def MostrarReservas() : Unit = {
-
+        println("LAS RESERVAS SON: \n")
         for(res <- _reservas){
     
-            println("LAS RESERVAS SON \n")
-            println(res.id + " " + res.descripcion + " Franja: " + 
-                  res.horaInicio + " a " + res.horaFinal + "\n")
+            println("|| ID reserva = "+ res.id + " || Descripcion = " + res.descripcion + "|| Franja: " + 
+                  res.horaInicio + " a " + res.horaFinal + "||\n")
         
         }
     }

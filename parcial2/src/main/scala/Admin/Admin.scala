@@ -14,12 +14,11 @@ class Admin{
     def pass = _pass 
 
     def LogIn(p : String) : Boolean = {
-        if(pass == p)
+        if(pass == p){
             return true
+        }
+        else{
+            return false
+        }
     }
-
-    def LogOut() : Unit = {
-        _Logeado = false
-    }
-    
 }
