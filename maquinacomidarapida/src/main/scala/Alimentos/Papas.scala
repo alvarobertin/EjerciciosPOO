@@ -2,14 +2,14 @@ package Alimentos
 import Adicionales._
 import Servicios.GeneradorReferencia
 
-class Papas extends Alimento
+class Papas extends Alimento with ISalsas with IPapas
 {
     /*Atributos*/
     override var _tamano : TipoTamano = _
     override var _descripcion : String = _
     override var _referencia : String = GeneradorReferencia.crearReferencia()
     override var _costo : Double = _
-    private var _conQueso : Boolean = false
+    var _conQueso : Boolean = false
     var _tieneSalsas : Boolean = false
     var _salsas : List[Salsa] = List()
 

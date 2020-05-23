@@ -3,13 +3,13 @@ import Adicionales._
 
 import Servicios.GeneradorReferencia
 
-class Hamburguesa extends Alimento with ISalsas
+class Hamburguesa extends Alimento with ISalsas with IHamburguesa
 {
     /*Atributos*/
     override var _tamano : TipoTamano = _
     override var _descripcion : String = _
     override var _referencia : String = GeneradorReferencia.crearReferencia()
-    private var _esAgrandable : Boolean = false
+    var _esAgrandable : Boolean = false
     override var _costo : Double = _
     var _tieneSalsas : Boolean = false
     var _salsas : List[Salsa] = List()

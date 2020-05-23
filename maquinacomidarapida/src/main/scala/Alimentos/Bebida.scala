@@ -2,14 +2,14 @@ package Alimentos
 
 import Servicios.GeneradorReferencia
 
-class Bebida extends Alimento
+class Bebida extends Alimento with IBebida
 {
     /*Atributos*/
     override var _tamano : TipoTamano = _
     override var _descripcion : String = _
     override var _referencia : String = GeneradorReferencia.crearReferencia()
     override var _costo : Double = _
-    private var _conHielo : Boolean = false
+    var _conHielo : Boolean = false
 
     /*Cosntructores Auxiliares*/
     def this(t: TipoTamano, d : String, c : Double)
