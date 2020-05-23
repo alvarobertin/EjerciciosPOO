@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\EjerciciosPOO\maquinacomidarapida\src\main\scala\Alimentos\Papas.scala:13:18: variable _tieneSalsas overrides nothing[0m
+[0m[[0m[31merror[0m] [0m[0m    override var _tieneSalsas : Boolean = false[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\EjerciciosPOO\maquinacomidarapida\src\main\scala\Alimentos\Papas.scala:14:18: variable _salsas overrides nothing[0m
+[0m[[0m[31merror[0m] [0m[0m    override var _salsas : List[Salsa] = List()[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
